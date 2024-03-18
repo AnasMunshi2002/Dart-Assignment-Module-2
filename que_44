@@ -1,0 +1,5 @@
+// 44. Can a superclass access subclass member?
+
+- Because of the concept of encapsulation, a super class cannot access member of it's subclass.
+- To maintain the integrity of the code, the superclass can use the public methods or the common methods which are already inherited from the super class.
+- By inheriting the properties and methods from the subclass, a super class can access its member.

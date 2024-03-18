@@ -1,0 +1,8 @@
+22. Which inheritance is not supported by Dart? Why? B3. What is advantage of inheritance?
+
+- Dart does not supports multiple inheritance in which a sub class can derive from more than one classes.
+- Because to make the language simple and to avoid the complexities and ambiguities that can arise such as diamond problem.
+- Diamond problem occurs when a class inherits attributes and method from classes that have a common super class.
+
+- Advantage of polymorphism : t promotes re-usability of the code and reduces redundant code. It helps to design a program in a better way. It makes code simpler, cleaner and saves time and money on maintenance.
+- Overall inheritance can help to write reusable, and maintainable code in Dart.

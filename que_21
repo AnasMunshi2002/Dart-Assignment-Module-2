@@ -1,0 +1,7 @@
+21. What is Inheritance?
+
+- Inheritance refers to a mechanism where a new class inherits attributes and methods from an existing class or a parent class.
+- The Class that is inherited from is called the parent class or superclass, while the class that inherits is called subclass or child class.
+- Inheritance helps in code re usability.
+- Multiple sub class can derive the methods and attributes from one or more super class.
+

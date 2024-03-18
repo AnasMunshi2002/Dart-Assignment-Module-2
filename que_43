@@ -1,0 +1,4 @@
+// 43. Can a subclass static method hide superclass instance method?
+
+- When a subclass defines a static method with the same name as an instance method in its superclass, the static method does not hide or override the instance method.
+- Instead, it exists independently as a static method in the subclass.

@@ -1,0 +1,22 @@
+// 45. Difference between object oriented and object based language.
+
+As both programming includes the involvement of objects.
+But the key differences are :
+
+Objects - Oriented Language:
+    1. Polymorphism: Allows objects of different classes to be treated as objects of a common superclass.
+                     This enables flexibility in designing and using classes.
+    2. Inheritance:  Classes can inherit attributes and methods from other classes.
+                     This promotes code reuse and allows for creating hierarchies of classes.
+    3. Dynamic Binding: Method calls are resolved at runtime based on the actual type of the object.
+    4. Provides rich set of feature to model real world applications and its objects.
+    5. Languages : Java, C++, Dart etc.
+
+Object based language:
+    1. No Inheritance:  Does not support inheritance or support limited forms of inheritance.
+                        Objects are standalone entities and do not participate in class hierarchies.
+    2. Limited Polymorphism: Does not support polymorphism to the same extent as object-oriented languages.
+                             There may be restrictions on treating objects of different classes interchangeably.
+    3. No Dynamic Binding: Does not support dynamic binding, and method calls are resolved at compile time rather than runtime.
+    4. Provide limited set of feature related to objects.
+    5. Languages : Javascript, Visual Basic.

@@ -1,0 +1,6 @@
+// 41. What happens when a class implements two interfaces and both declare field (variable) with same name?
+
+- If both interfaces declare a field with the same name, the implementing class will have to provide an implementation for that field.
+- Dart does not allow fields to be re-declared in the implementing class, so you cannot have two fields with the same name in the same class.
+- Using mixing we can override the fields of parent classes separately.
+- We can create a mixin that contains the field with the conflicting name and then use that mixin in the implementing class.

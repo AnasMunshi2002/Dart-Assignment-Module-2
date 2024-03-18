@@ -1,0 +1,14 @@
+// 33. How do you implement multiple inheritance in Dart?
+
+- In dart, multiple inheritance can be achieved using interfaces with implements keyword.
+- to implement multiple interface :
+    class A{
+        //Implementation
+    }
+    class B{
+        // Implementastion
+    }
+    class C implements A,B{
+        // Implementation
+    }
+- In above example class C inheriting A and B interfaces which is called as multiple inheritance.
