@@ -15,4 +15,6 @@ void main() {
 
   var union = elements.union(alkalines).toSet();
   print(union);
+  var intersection = elements.intersection(alkalines).toSet();
+  print(intersection);
   }
