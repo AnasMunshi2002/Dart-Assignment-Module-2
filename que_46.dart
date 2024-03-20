@@ -12,39 +12,6 @@ void main(){
     stdout.write('Enter ${i+1}st name : ');
     var name = stdin.readLineSync().toString();
     names.add(name);
-<<<<<<< HEAD
-  }
-  print('Name in List ');
-  print(names);
-
-  stdout.write('Do you want to delete any names from list : \n');
-  print('''
-  1. Yes
-  2. No
-  ''');
-  int choice = int.parse(stdin.readLineSync().toString());
-
-  if(choice==1){
-    stdout.write('Enter name you want to delete from $names : ');
-    String remName = stdin.readLineSync().toString();
-    names.removeWhere((element) => element == remName);
-  }
-  else{
-    print('No name is deleted.');
-  }
-
-  print(names);
-
-  stdout.write('Enter a name to search : ');
-  var searchName=stdin.readLineSync().toString();
-
-  if(names.contains(searchName)) {
-    print('$searchName is present in Name list');
-  }
-  else{
-    print('$searchName is not present in Name list');
-=======
->>>>>>> 64733e314a513f6b618e2dca70cdace96db243bf
   }
   print('Name in List ');
   print(names);
